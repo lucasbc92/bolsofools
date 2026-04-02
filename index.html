@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Bolsonaro morre aos 71 anos</title>
+
+  <meta name="description" content="MSN.COM - Bolsonaro morre aos 71 anos" />
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="MSN Brasil" />
+  <meta property="og:locale" content="pt_BR" />
+  <meta property="og:title" content="URGENTE: Bolsonaro morre aos 71 anos" />
+  <meta property="og:description" content="MSN.COM - URGENTE: Bolsonaro morre aos 71 anos" />
+  <meta property="og:image" content="https://lucasbc92.github.io/og-image-facebook.jpg" />
+  <meta property="og:image:secure_url" content="https://lucasbc92.github.io/og-image-facebook.jpg" />
+  <meta property="og:image:type" content="image/jpeg" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  <meta property="og:url" content="https://lucasbc92.github.io/" />
+
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="URGENTE: Bolsonaro morre aos 71 anos" />
+  <meta name="twitter:description" content="MSN.COM - URGENTE: Bolsonaro morre aos 71 anos" />
+  <meta name="twitter:image" content="https://lucasbc92.github.io/og-image-facebook.jpg" />
+
+  <style>
+    :root {
+      --bg: #f3f4f7;
+      --card: #ffffff;
+      --line: #e6e8ee;
+      --text: #1d232f;
+      --muted: #667085;
+      --link: #1463ff;
+    }
+
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      min-height: 100vh;
+      font-family: Arial, Helvetica, sans-serif;
+      background: linear-gradient(180deg, #eef2f7 0%, #f7f8fb 100%);
+      color: var(--text);
+    }
+
+    .page {
+      width: min(100%, 860px);
+      margin: 0 auto;
+      padding: 28px 16px 48px;
+    }
+
+    .article-shell {
+      background: var(--card);
+      border: 1px solid var(--line);
+      border-radius: 18px;
+      box-shadow: 0 10px 35px rgba(16, 24, 40, 0.07);
+      overflow: hidden;
+    }
+
+    .topbar {
+      padding: 12px 16px;
+      border-bottom: 1px solid var(--line);
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      background: #fbfcfe;
+    }
+
+    .msn-dot {
+      width: 12px;
+      height: 12px;
+      border-radius: 50%;
+      background: linear-gradient(135deg, #00a4ef, #7fba00);
+      box-shadow: 10px 0 0 #ffb900, 20px 0 0 #f25022;
+      margin-right: 18px;
+    }
+
+    .brand {
+      font-size: 0.95rem;
+      font-weight: 700;
+      letter-spacing: 0.02em;
+    }
+
+    .crumb {
+      color: var(--muted);
+      font-size: 0.9rem;
+    }
+
+    .content {
+      padding: 18px 18px 24px;
+    }
+
+    .eyebrow {
+      color: var(--muted);
+      font-size: 0.82rem;
+      font-weight: 700;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      margin-bottom: 10px;
+    }
+
+    h1 {
+      font-size: clamp(1.65rem, 3.6vw, 2.45rem);
+      line-height: 1.15;
+      margin: 0 0 10px;
+      font-weight: 800;
+    }
+
+    .subhead {
+      font-size: 1.02rem;
+      line-height: 1.5;
+      color: #475467;
+      margin: 0 0 16px;
+      max-width: 64ch;
+    }
+
+    .meta {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px 18px;
+      color: var(--muted);
+      font-size: 0.9rem;
+      margin-bottom: 18px;
+    }
+
+    .bolsonaro-wrap {
+      position: relative;
+      border-radius: 14px;
+      overflow: hidden;
+      border: 1px solid var(--line);
+      background: #101828;
+      max-width: 100%;
+      margin-bottom: 18px;
+    }
+
+    .bolsonaro-img {
+      display: block;
+      width: 100%;
+      max-height: 250px;
+      object-fit: cover;
+      object-position: center;
+    }
+
+    .caption {
+      padding: 8px 12px;
+      font-size: 0.82rem;
+      color: #98a2b3;
+      background: #111827;
+    }
+
+    .article-body {
+      font-size: 1.02rem;
+      line-height: 1.75;
+      color: #344054;
+    }
+
+    .article-body p { margin: 0 0 16px; }
+
+    .fake-link {
+      color: var(--link);
+      text-decoration: none;
+      font-weight: 700;
+      cursor: pointer;
+    }
+
+    .cta-row {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      margin-top: 18px;
+      flex-wrap: wrap;
+    }
+
+    .listen-hint {
+      color: var(--muted);
+      font-size: 0.92rem;
+    }
+
+    .inline-button {
+      border: 0;
+      border-radius: 999px;
+      background: #111827;
+      color: white;
+      padding: 10px 14px;
+      font-weight: 700;
+      cursor: pointer;
+    }
+
+    .overlay {
+      position: fixed;
+      inset: 0;
+      background: rgba(3, 7, 18, 0.86);
+      display: none;
+      align-items: center;
+      justify-content: center;
+      padding: 20px;
+      z-index: 50;
+    }
+
+    .overlay.show { display: flex; }
+
+    .prank-card {
+      width: min(92vw, 560px);
+      background: linear-gradient(180deg, #1f0a2f, #320d47);
+      color: white;
+      border-radius: 24px;
+      box-shadow: 0 24px 80px rgba(0, 0, 0, 0.45);
+      padding: 22px;
+      text-align: center;
+      border: 1px solid rgba(255,255,255,0.12);
+      animation: pop 0.24s ease-out;
+    }
+
+    @keyframes pop {
+      from { transform: scale(0.92); opacity: 0; }
+      to { transform: scale(1); opacity: 1; }
+    }
+
+    .gif {
+      width: min(100%, 300px);
+      max-height: 220px;
+      object-fit: contain;
+      border-radius: 16px;
+      display: block;
+      margin: 0 auto 14px;
+      background: rgba(255,255,255,0.06);
+    }
+
+    .prank-title {
+      margin: 0 0 10px;
+      font-size: clamp(2rem, 5vw, 3rem);
+      color: #ffd166;
+    }
+
+    .prank-text {
+      margin: 0 0 14px;
+      font-size: 1.08rem;
+      line-height: 1.6;
+      color: rgba(255,255,255,0.92);
+    }
+
+    .tag {
+      display: inline-block;
+      background: rgba(255,255,255,0.12);
+      border: 1px solid rgba(255,255,255,0.16);
+      border-radius: 999px;
+      padding: 8px 12px;
+      font-weight: 700;
+    }
+
+    @media (max-width: 640px) {
+      .page { padding: 12px 8px 32px; }
+      .content { padding: 14px 14px 20px; }
+      .bolsonaro-img { max-height: 190px; }
+    }
+  </style>
+</head>
+<body>
+  <div class="page">
+    <article class="article-shell">
+      <div class="topbar">
+        <div class="msn-dot" aria-hidden="true"></div>
+        <div class="brand">MSN Brasil</div>
+        <div class="crumb">/ Política / Bolsonaro</div>
+      </div>
+
+      <div class="content">
+        <div class="eyebrow">MSN.COM</div>
+        <h1>MSN.COM - Bolsonaro morre aos 71 anos</h1>
+        <p class="subhead">
+          O ex-presidente Jair Messias Bolsonaro teve uma morte súbita às 23 horas e 59 minutos do dia de hoje, 01/04/2026.
+        </p>
+
+        <div class="meta">
+          <span>MSN Política</span>
+          <span>Criado há 10 minutos</span>
+          <span>Leitura de 2 min</span>
+        </div>
+
+        <div class="bolsonaro-wrap">
+          <img class="bolsonaro-img" src="bolsonaro.webp" alt="Imagem da matéria" />
+          <div class="caption">A situação de saúde do presidiário estava crítica desde a semana passada.</div>
+        </div>
+
+        <div class="article-body">
+            Para continuar lendo e ver os comentários do público, <a class="fake-link" id="continueLink">clique aqui</a>.
+          </p>
+        </div>
+
+        <div class="cta-row">
+          <button class="inline-button" id="openPrank">Continuar lendo</button>
+          <span class="listen-hint">O conteúdo completo aparece após a interação.</span>
+        </div>
+      </div>
+    </article>
+  </div>
+
+  <div class="overlay" id="overlay" aria-hidden="true">
+    <div class="prank-card">
+      <img class="gif" src="laughing-cat.gif" alt="GIF engraçado" />
+      <h2 class="prank-title">Primeiro de Abril!</h2>
+      <p class="prank-text">Não, Bolsonaro ainda não morreu... mas uma hora, ele vai. 💀</p>
+	  <p class="prank-text">(assim como todos nós) ⚰️</p>
+    </div>
+  </div>
+
+  <audio id="prankAudio" preload="auto" loop>
+    <source src="cat-laugh-meme-1.mp3" type="audio/mpeg" />
+  </audio>
+
+  <script>
+    const overlay = document.getElementById('overlay');
+    const audio = document.getElementById('prankAudio');
+    const triggerIds = ['continueLink', 'openPrank'];
+    let activated = false;
+
+    function activatePrank(event) {
+      if (event) event.preventDefault();
+      if (activated) return;
+      activated = true;
+      overlay.classList.add('show');
+      overlay.setAttribute('aria-hidden', 'false');
+      audio.play().catch(() => {});
+      document.body.style.overflow = 'hidden';
+    }
+
+    triggerIds.forEach(id => {
+      const el = document.getElementById(id);
+      if (el) el.addEventListener('click', activatePrank);
+    });
+
+    overlay.addEventListener('click', () => {
+      overlay.classList.remove('show');
+      overlay.setAttribute('aria-hidden', 'true');
+      document.body.style.overflow = '';
+    });
+  </script>
+</body>
+</html>
